@@ -9,9 +9,9 @@ import requests
 import threading
 
 # bot
-bot_token = os.environ.get("TOKEN", "")
-api_hash = os.environ.get("HASH", "") 
-api_id = os.environ.get("ID", "")
+bot_token = os.environ.get("TOKEN", "6934514903:AAHLVkYqPEwyIZiyqEhJocOrjDYwTk9ue8Y")
+api_hash = os.environ.get("HASH", "558df3cdc4820fd2de0950656e8112f3") 
+api_id = os.environ.get("ID", "25582726")
 app = Client("my_bot",api_id=api_id, api_hash=api_hash,bot_token=bot_token)  
 
 # ENVs
